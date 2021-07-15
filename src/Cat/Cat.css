@@ -1,0 +1,81 @@
+.Cat {
+    padding: 2em 1em;
+    flex: 25%;
+}
+
+.CatName {
+    font-size: 1.2em;
+    font-weight: 600;
+    visibility: visible;
+    opacity: 1;
+}
+
+.CatDetails {
+    font-size: 0.8em;
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+}
+
+.CatImage {
+    transition: transform 0.5s;
+}
+
+.CatDescription {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.CatDescriptionContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #D3D3D3;
+    padding: 1em;
+    border: 5px solid #7B1FA2;
+    width: 80vw;
+    height: auto;
+    font-size: 0.9em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.CatDetailsOpen .CatImage {
+    transform: scale(1.2);
+}
+
+.CatDetailsOpen .CatDescription{
+    display: block;
+}
+
+.CatDetailsOpen .CatDetails,
+.CatDetailsOpen .CatName {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+.CatDetailsHide {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .CatName {
+        font-size: 1.1em;
+    }
+
+    .CatDetails {
+        font-size: 1em;
+    }
+}

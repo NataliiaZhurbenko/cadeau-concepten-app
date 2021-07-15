@@ -1,0 +1,13 @@
+.CatsList {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 2em 7em;
+}
+
+@media (max-width: 800px) {
+  .CatsList {
+    flex-direction: column;
+    padding: 1em;
+  }
+}
