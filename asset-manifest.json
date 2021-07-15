@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cadeau-concepten-app/static/css/main.2205a3fd.chunk.css",
+    "main.js": "/cadeau-concepten-app/static/js/main.b587b90e.chunk.js",
+    "main.js.map": "/cadeau-concepten-app/static/js/main.b587b90e.chunk.js.map",
+    "runtime-main.js": "/cadeau-concepten-app/static/js/runtime-main.b31865f0.js",
+    "runtime-main.js.map": "/cadeau-concepten-app/static/js/runtime-main.b31865f0.js.map",
+    "static/js/2.379d432d.chunk.js": "/cadeau-concepten-app/static/js/2.379d432d.chunk.js",
+    "static/js/2.379d432d.chunk.js.map": "/cadeau-concepten-app/static/js/2.379d432d.chunk.js.map",
+    "index.html": "/cadeau-concepten-app/index.html",
+    "static/css/main.2205a3fd.chunk.css.map": "/cadeau-concepten-app/static/css/main.2205a3fd.chunk.css.map",
+    "static/js/2.379d432d.chunk.js.LICENSE.txt": "/cadeau-concepten-app/static/js/2.379d432d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b31865f0.js",
+    "static/js/2.379d432d.chunk.js",
+    "static/css/main.2205a3fd.chunk.css",
+    "static/js/main.b587b90e.chunk.js"
+  ]
+}
